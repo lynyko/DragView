@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DragContainer">
+        <attr name="DragContainerCount" format="integer"></attr>
+        <attr name="VerticalPadding" format="dimension"></attr>
+        <attr name="HorizontalPadding" format="dimension"></attr>
+    </declare-styleable>
+</resources>

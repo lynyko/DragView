@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CalendarView">
+        <!--是否显示农历-->
+        <attr name="show_lunar" format="boolean" />
+        <!--是否显示上月和下月-->
+        <attr name="show_last_next" format="boolean" />
+        <!--是否显示节假日-->
+        <attr name="show_holiday" format="boolean" />
+        <!--是否显示节气-->
+        <attr name="show_term" format="boolean" />
+        <!--阳历的日期颜色-->
+        <attr name="solar_color" format="color" />
+        <!--阳历的日期尺寸-->
+        <attr name="solar_size" format="integer" />
+        <!--农历的日期颜色-->
+        <attr name="lunar_color" format="color" />
+        <!--农历的日期尺寸-->
+        <attr name="lunar_size" format="integer" />
+        <!--节日文字颜色-->
+        <attr name="holiday_color" format="color" />
+        <!--选中的日期文字颜色-->
+        <attr name="choose_color" format="color" />
+        <!--选中的日期背景-->
+        <attr name="day_bg" format="reference" />
+        <!--单选时切换月份，是否选中上次的日期-->
+        <attr name="switch_choose" format="boolean" />
+        <!--设置单选、多选-->
+        <attr name="choose_type" format="enum">
+            <enum name="single" value="0" />
+            <enum name="multi" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="AutoMenuView">
+        <attr name="span_count" format="integer" />
+        <attr name="item_layout" format="reference" />
+        <attr name="parting_line_size" format="dimension" />
+        <attr name="parting_line_color" format="color" />
+        <attr name="line_orientation" >
+            <enum name="HORIZONTAL" value="103" />
+            <enum name="VERTICAL" value="104" />
+            <enum name="ALL" value="105" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="WheelView">
+        <attr name="unitHeight" format="dimension" />
+        <attr name="itemNumber" format="integer"/>
+
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedTextSize" format="dimension" />
+        <attr name="isCyclic" format="boolean" />
+
+        <attr name="lineColor" format="color" />
+        <attr name="lineHeight" format="dimension" />
+
+        <attr name="noEmpty" format="boolean"/>
+        <attr name="isEnable" format="boolean"/>
+
+        <attr name="maskDarkColor" format="color" />
+        <attr name="maskLightColor" format="color" />
+
+        <attr name="inputBackground" format="reference"/>
+        <attr name="inputMarginLeft" format="dimension"/>
+        <attr name="inputMarginRight" format="dimension"/>
+        <attr name="inputTextColor" format="color"/>
+
+        <attr name="withInputText" format="boolean"/>
+        <attr name="android:inputType"/>
+    </declare-styleable>
+    <declare-styleable name="WeekView">
+        <!--周的表示形式（x.x.x.x.x.x.x）-->
+        <attr name="week_str" format="string" />
+        <!--周的文字颜色-->
+        <attr name="week_color" format="color" />
+        <!--周的文字大小-->
+        <attr name="week_size" format="integer" />
+    </declare-styleable>
+
+
+    <!-- 仪表盘自定义属性 -->
+    <declare-styleable name="ClockView">
+        <attr name="color_dial_lower" format="color"/>
+        <attr name="color_dial_middle" format="color"/>
+        <attr name="color_dial_high" format="color"/>
+        <attr name="text_size_dial" format="dimension"/>
+        <attr name="stroke_width_dial" format="dimension"/>
+        <attr name="radius_circle_dial" format="dimension"/>
+        <attr name="text_title_dial" format="string"/>
+        <attr name="text_title_size" format="dimension"/>
+        <attr name="text_title_color" format="color"/>
+        <attr name="text_size_value" format="dimension"/>
+        <attr name="animator_play_time" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CuteIndicator">
+        <attr name="IndicatorColor" format="color"/>
+        <attr name="IndicatorShadowColor" format="color"/>
+        <attr name="IndicatorSelectedWidthDimension" format="dimension"/>
+        <attr name="IndicatorDiaDimension" format="dimension"/>
+        <attr name="IndicatorSpaceDimension" format="dimension"/>
+        <attr name="IndicatorShadowRadiusDimension" format="dimension"/>
+        <attr name="IndicatorIsAnimation" format="boolean"/>
+        <attr name="IndicatorIsShadow" format="boolean"/>
+    </declare-styleable>
+
+</resources>

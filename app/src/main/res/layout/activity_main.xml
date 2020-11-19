@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.yko.dragview.DragViewContainer
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:DragContainerCount="4"
+        app:VerticalPadding="1dp"
+        android:background="#DDDDDD"
+        app:HorizontalPadding="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:tag="1"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:tag="2"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:tag="3"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:tag="4"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:tag="5"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:tag="6"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:tag="7"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:tag="8"
+            android:onClick="onClick"/>
+    </com.yko.dragview.DragViewContainer>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加"
+        android:textSize="18sp"
+        android:onClick="onAdd"
+        android:layout_gravity="bottom|center"/>
+</FrameLayout>
+
