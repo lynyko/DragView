@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-    <string name="AnchorSheetBehavior">com.demo.myapplication.bottomsheet.AnchorSheetBehavior</string>
-    <string name="BottomSheetBehavior">com.demo.myapplication.bottomsheet.BottomSheetBehavior</string>
-    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
-</resources>
